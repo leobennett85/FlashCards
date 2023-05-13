@@ -84,6 +84,12 @@
 
 #### JavaScript Modules
 
+-Modules are functions, variables, constants or classes that exist in their own .js file
+-They are invoked by two keywords:
+export
+import -_export_ is used when creating modules that need to be reused -_export_ vs _default export_ -_export_
+-A _named export_ creates a module with the same name as the variable, constant, function, or class that's being exported > export function addOne(input) { > return input + 1; > } -_default export_ - -_import_ is used
+
 ## React Flash Cards
 
 ### React Concepts
