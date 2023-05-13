@@ -88,6 +88,18 @@
 
 ### React Concepts
 
+**Building a React UI Process**
+
+1. Break up the UI into a component hierarchy
+2. Build a static version in React
+3. Identify the minimal representation of UI state
+4. Identify where the state should live
+5. Add inverse data flow by using event handlers
+
+**React is Declarative**
+-Declarative Systems are where the programmer provides a UI state they want the system to create
+-Imperative Systems are a series of steps necessary to change the state of the UI
+
 #### JSX
 
 #### Components
