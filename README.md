@@ -6,8 +6,8 @@
 
 #### Data
 
-**Variables**
-**Const**
+**Variables**  
+**Const**  
 **Data Types**
 
 - String
@@ -20,20 +20,20 @@
 
 #### Operators and Expressions
 
-**Precedence**
-**Parentheses**
-**Assignment**
-**Comparison**
-**Arithmetic**
-**Concatenation**
-**Logical**
-**Combination**
+**Precedence**  
+**Parentheses**  
+**Assignment**  
+**Comparison**  
+**Arithmetic**  
+**Concatenation**  
+**Logical**  
+**Combination**  
 **Other**
 
 #### Flow Control
 
-**if... else**
-**Switch**
+**if... else**  
+**Switch**  
 **Loops**
 
 - for
@@ -45,12 +45,12 @@
 
 #### Arrays
 
-**Array() Constructor**
-**Literal notation**
-**Split function**
-**Accesing array elements**
-**Modifying Arrays**
-**Delete Elements**
+**Array() Constructor**  
+**Literal notation**  
+**Split function**  
+**Accesing array elements**  
+**Modifying Arrays**  
+**Delete Elements**  
 **Array Methods**
 
 - Pushing and popping
@@ -74,8 +74,8 @@
   **Modifying Objects**
 - Dot Notation
 - Square Brackets notation
-  **Comparing and Copying**
-  **Prototypes**
+  **Comparing and Copying**  
+  **Prototypes**  
   **Deleting Object Properties**
 
 #### Functions
@@ -100,8 +100,7 @@
       > export function addOne(input) {
       > return input + 1;
       > }
-  - _default export_
-    -
+  - ## _default export_
 - _import_ is used
 
 ## React Flash Cards
