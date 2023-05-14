@@ -88,10 +88,11 @@
 
 #### JavaScript Modules
 
-- Modules are functions, variables, constants or classes that exist in their own .js file
+- Modules are functions, variables, constants or classes that exist in their own '.js' file
 - They are invoked by two keywords:
-  export
-  import
+  _export_
+  _import_
+  **Export**
 - _export_ is used when creating modules that need to be reused
   - _export_ vs _default export_
   - _export_
@@ -119,6 +120,23 @@
 
 - Declarative Systems are where the programmer provides a UI state they want the system to create
 - Imperative Systems are a series of steps necessary to change the state of the UI
+
+**ReactDOM**
+
+- _ReactDOM_ is the library that renders React components in the browser.
+- _ReactDOM_ is only used in the src/main.jsx file
+- The code in main.jsx passes a reference to an element from index.html to the _ReactDOM.createRoot()_ method
+- This is what creates the **root** element where the entire application is rendered.
+- The _render()_ method of the root object returned by ReactDOM is then called.
+- By default the <App /> component is passed to it
+- This component is known as the _Root Component_
+
+**VirtualDOM**
+
+- The _render()_ method is called automatically when the React-generated interface is updated
+- _ReactDOM_ then updates the browser DOM tree to match the tree rendered by React
+- This process is known as the _Virtual DOM_
+- The _Virtual DOM_ (_VDOM_) doesn't directly update the the HTML DOM
 
 #### JSX
 
